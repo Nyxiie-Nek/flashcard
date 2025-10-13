@@ -23,13 +23,13 @@ criaCartao(
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',    
-    'Resposta'
+    '3-1',
+    'I hate you',    
+    'sorry'
 )
 
 criaCartao(
-    'Categoria',
-    'Pergunta',    
-    'Resposta'
+    '???',
+    'believe_',    
+    '_dying'
 )
