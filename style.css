@@ -67,7 +67,7 @@ body {
 
 .cartao_conteudo_pergunta,
 .cartao_conteudo_resposta {
-    backface-visibility: hiden;
+    backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -75,7 +75,7 @@ body {
 }
 
 .cartao_conteudo_resposta{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
     border: 4px solid var(--card-back-color);
 }
@@ -93,4 +93,22 @@ footer p {
     text-align: center;
     font-size: 0.6;
     margin-top: 0.5 rem;
+}
+
+@media (max-width: 560px) {
+    body {
+        background: url('img/bg-mobile.webp');
+    }
+
+    .cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+
+    .cartao_conteudo h3 {
+        font-size: 3vw;
+    }
+
+    .cartao_conteudo p {
+        font-size: 3.8vw;
+    }
 }
